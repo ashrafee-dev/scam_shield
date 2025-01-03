@@ -1,0 +1,32 @@
+# ScamShield API — Python dependencies
+# Pin to exact versions for reproducible builds.
+# Use `pip install -r requirements.txt` to install.
+
+# Web framework
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+
+# Pydantic v2 + settings
+pydantic==2.10.6
+pydantic-settings==2.7.1
+email-validator==2.2.0
+
+# Multipart file uploads
+python-multipart==0.0.20
+
+# HTTP client (for future webhook / external API calls)
+httpx==0.28.1
+
+# Environment variable loading
+python-dotenv==1.0.1
+
+# AWS SDK placeholder (DynamoDB, S3, Transcribe — future integrations)
+boto3==1.37.7
+
+# Python 3.9 / 3.10 compatibility shim for Pydantic v2 type annotation evaluation
+eval-type-backport==0.2.0
+
+# Testing
+pytest==8.3.5
+pytest-asyncio==0.25.3
+httpx==0.28.1
