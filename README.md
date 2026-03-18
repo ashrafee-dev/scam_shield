@@ -1,6 +1,6 @@
 # ScamShield API
 
-A production-style, developer-facing scam detection service built with FastAPI.
+A scam detection service built with FastAPI.
 ScamShield analyzes suspicious content across multiple channels — phone transcripts,
 emails, audio recordings, and live streaming sessions — and returns structured
 risk scores and actionable guidance.
